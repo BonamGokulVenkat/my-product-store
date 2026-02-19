@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = "http://127.0.0.1:8000/products";
+const API_URL = "https://my-store-api-f13u.onrender.com/products";
 
 export default function App() {
   const [products, setProducts] = useState([]);
